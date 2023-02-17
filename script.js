@@ -50,16 +50,16 @@ link0.addEventListener("click",()=>{
 link1.addEventListener("click",()=>{
     gallery.style.display="flex";
     heading.innerText = "Nature🌿";
-    heading.style.backgroundImage="url(/images/land.jpg)";
+    heading.style.backgroundImage="url(./images/land.jpg)";
     colorChange.forEach(element => {
         element.className ='green';
     });
-    document.getElementById("i1").setAttribute('src','/images/flo1.jpeg');
-    document.getElementById("i2").setAttribute('src','/images/bird-sparrows.jpg');
-    document.getElementById("i3").setAttribute('src','/images/landscape2.jpg');
-    document.getElementById("i4").setAttribute('src','/images/cow_calf.jpg');
-    document.getElementById("i5").setAttribute('src','/images/deer1.jpg');
-    document.getElementById("i6").setAttribute('src','/images/squirrel_nut.jpg');
+    document.getElementById("i1").setAttribute('src','./images/flo1.jpeg');
+    document.getElementById("i2").setAttribute('src','./images/bird-sparrows.jpg');
+    document.getElementById("i3").setAttribute('src','./images/landscape2.jpg');
+    document.getElementById("i4").setAttribute('src','./images/cow_calf.jpg');
+    document.getElementById("i5").setAttribute('src','./images/deer1.jpg');
+    document.getElementById("i6").setAttribute('src','./images/squirrel_nut.jpg');
 });
 link2.addEventListener("click",()=>{
     gallery.style.display="flex";
@@ -68,10 +68,10 @@ link2.addEventListener("click",()=>{
    colorChange.forEach(element => {
         element.className ='blue';
     });
-    document.getElementById("i1").setAttribute('src','/images/c5.jpeg');
-    document.getElementById("i2").setAttribute('src','/images/clouds2.jpeg');
-    document.getElementById("i3").setAttribute('src','/images/cloudy.jpeg');
-    document.getElementById("i4").setAttribute('src','/images/sky.jpeg');
-    document.getElementById("i5").setAttribute('src','/images/c1.jpeg');
-    document.getElementById("i6").setAttribute('src','/images/sky2.jpeg');
+    document.getElementById("i1").setAttribute('src','./images/c5.jpeg');
+    document.getElementById("i2").setAttribute('src','./images/clouds2.jpeg');
+    document.getElementById("i3").setAttribute('src','./images/cloudy.jpeg');
+    document.getElementById("i4").setAttribute('src','./images/sky.jpeg');
+    document.getElementById("i5").setAttribute('src','./images/c1.jpeg');
+    document.getElementById("i6").setAttribute('src','./images/sky2.jpeg');
 });
